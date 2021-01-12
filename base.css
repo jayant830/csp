@@ -1,0 +1,24 @@
+.heading {
+    background-color:orange;
+    width: 100%;
+    padding: 1px;
+}
+
+.left-bar {
+    background-color: papayawhip;
+    position: relative;
+    float:left;
+    width: 12%;
+}
+
+li {
+    list-style: none;
+}
+
+.main-section {
+    width: 75%;
+    position: relative;
+    padding: 2px;
+    background-color: whitesmoke;
+    /*float:right;*/
+}
