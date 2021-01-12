@@ -20,5 +20,5 @@ li {
     position: relative;
     padding: 2px;
     background-color: whitesmoke;
-    /*float:right;*/
+    overflow: auto;
 }
