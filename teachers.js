@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             //console.log(xml);
             buildNameList(xml);
             //buildImageList(xml);
-            buildBlurbList(xml);
+            //  buildBlurbList(xml);
         });
 })
 
@@ -19,10 +19,12 @@ function buildNameList(x) {
     let list = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let li = document.createElement('li');
+        let span = document.createElement('span');
         let name = member[i].firstChild.nodeValue;
-        li.textContent = name;
-        list.appendChild(li);
+        let blurb = member[i].lastChild.nodeValue;
+        span.textContent = name;
+        span.textContent = blurb;
+        list.appendChild(span);
     }
 }
 
