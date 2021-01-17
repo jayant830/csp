@@ -1,9 +1,9 @@
 html {
-	font-family: "Open sans", sans-serif;
+    font-family: "Open sans", sans-serif;
 }
 
 .heading {
-    background-color:orange;
+    background-color: orange;
     width: 100%;
     padding: 1px;
 }
@@ -11,7 +11,7 @@ html {
 .left-bar {
     background-color: papayawhip;
     position: relative;
-    float:left;
+    float: left;
     width: 12%;
 }
 
@@ -25,4 +25,9 @@ li {
     padding: 2px;
     background-color: whitesmoke;
     overflow: auto;
+}
+
+.left {
+    position: relative;
+    float: left;
 }

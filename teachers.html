@@ -7,26 +7,26 @@
     <script defer rel="script" src="teachers.js"></script>
 </head>
 
-<body style="background-color: darkorange;"></body>
-<div class="heading">
+<body></body>
+<div class="heading ">
     <header>
-        <h1><a href="index.html">Jayant's website</a></h1>
+        <h1><a href="index.html ">Jayant's website</a></h1>
     </header>
 </div>
-<div class="left-bar">
+<div class="left-bar ">
     <ul>
         <li>
-            <a href="index.html">My home</a>
+            <a href="index.html ">My home</a>
         </li>
         <li>
-            <a href="page2.html">My hobbies</a>
+            <a href="page2.html ">My hobbies</a>
         </li>
         <li>
-            <a href="teachers.html">My teachers</a>
+            <a href="teachers.html ">My teachers</a>
         </li>
     </ul>
 </div>
-<div class="main-section">
+<div class="main-section ">
     <h2>My subjects</h2>
     <p> I take the following subjects at school in 11th grade:</p>
     <ol>
@@ -40,22 +40,22 @@
 
     </header>
     <main>
-        <ul id="member"></ul>
-        <ul id="blurb"></ul>
-        <ul id="image"></ul>
-        <pre id="output"></pre>
+        <div id="member " class="left "></div>
+        <div id="blurb " class="left "></div>
+        <div id="image " class="left "></div>
+        <pre id="output "></pre>
     </main>
 </div>
 <!--script>
 		document.addEventListener('DOMContentLoaded', () => {
     //fetch the data as soon as the page has loaded
-    let url = "teachers.xml";
+    let url = "teachers.xml ";
     fetch(url)
         .then(response => response.text())
         .then(data => {
             console.log(data);  //string
             let parser = new DOMParser();
-            let xml = parser.parseFromString(data, "application/xml");
+            let xml = parser.parseFromString(data, "application/xml ");
             document.getElementById('output').textContent = data;
             console.log(xml);
 	});

@@ -23,25 +23,17 @@ function buildNameList(x) {
         let name = member[i].firstChild.nodeValue;
         li.textContent = name;
         list.appendChild(li);
-        let member = x.getElementsByTagName('blurb');
-        for (let i = 0; i < member.length; i++) {
-            let li = document.createElement('li');
-            let blurb = member[i].lastChild.nodeValue;
-            //let person = swords[i].getAttribute('owner');
-            li.textContent = blurb;
-            list.appendChild(li);
-        }
     }
 }
 
-/*   function buildBlurbList(x) {
-       let list = document.getElementById('member');
-       let member = x.getElementsByTagName('blurb');
-       for (let i = 0; i < member.length; i++) {
-           let li = document.createElement('li');
-           let blurb = member[i].lastChild.nodeValue;
-           //let person = swords[i].getAttribute('owner');
-           li.textContent = blurb;
-           list.appendChild(li);
-       }
-   }*/
+function buildBlurbList(x) {
+    let list = document.getElementById('member');
+    let member = x.getElementsByTagName('blurb');
+    for (let i = 0; i < member.length; i++) {
+        let li = document.createElement('li');
+        let blurb = member[i].lastChild.nodeValue;
+        //let person = swords[i].getAttribute('owner');
+        li.textContent = blurb;
+        list.appendChild(li);
+    }
+}
