@@ -1,0 +1,29 @@
+<xml id="books">
+<?xml version="1.0"?>
+<books>
+   <book>
+            <title>OpenGL Programming Guide Fourth Edition</title>
+            <location>107</location>
+            <publisher>Addison-Wesley</publisher>
+            <year>2004</year>
+   </book>
+   <book>
+            <title>Curves and Surfaces for CAGD: A Practical Guide</title>
+            <location>116</location>
+            <publisher>Academic Press</publisher>
+            <year>2002</year>
+   </book>
+   <book>
+            <title>An Introduction to NURBS: With Historical Perspective</title>
+            <location>120</location>
+            <publisher>Academic Press</publisher>
+            <year>2001</year>
+   </book>
+   <book>
+            <title>NURBS: From Projective Geometry to Practical Use</title>
+            <location>126</location>
+            <publisher>A K Peters</publisher>
+            <year>1999</year>
+   </book>
+</books>
+</xml>
