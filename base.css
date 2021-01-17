@@ -27,7 +27,8 @@ li {
     overflow: auto;
 }
 
-.left {
-    position: relative;
-    float: left;
+table,
+th,
+td {
+    border: 1px solid black;
 }
