@@ -1,49 +1,45 @@
-<?xml version="1.0" encode="UTF-8"?>
+<?xml version="1.0" encode="UTF-8" ?>
 <jayant>
 	<member relation="teacher">
-		<name> Ms. Lucas  </name>
-		<image pic= "gatsby.jpg"  />
+		<name>Ms. Lucas</name>
+		<image pic="gatsby.jpg"  />
 		<blurb>
 		We read many books in English 11 taught by Ms. Lucas
-		
 		</blurb>
 		
 	<member relation="teacher">
-		<name> Mr. Benn  </name>
-		<image pic= " physics.jpg"  />
+		<name>Mr. Benn</name>
+		<image pic="physics.jpg"/>
 		<blurb>
 		We learn many physics concepts in AP Physics 1 taught by Mr. Benn.
-		
 		</blurb>
 		
 		
 	<member relation="teacher">
 		<name> Mrs. Angilieri  </name>
-		<image pic= "APush.jpg"  />
+		<image pic="APush.jpg"  />
 		<blurb>
-		We learn a lot about the history of the US and the impacts of the actions of people in APUSH.
-		
+		We learn a lot about the history of the US and the impacts of the actions of people in APUSH.	
 		</blurb>
 		
 	<member relation="teacher">
-		<name> Mr. Millard  </name>
-		<image pic= "csp.jpg"  />
+		<name>Mr. Millard</name>
+		<image pic="csp.jpg"/>
 		<blurb>
 		Mr. Millard teaches us about things like HTML and newtorking.
-		
 		</blurb>
 	
 	<member relation="teacher">
-		<name> Mr. Wong  </name>
-		<image pic= "band.jpg"  />
+		<name>Mr. Wong</name>
+		<image pic="band.jpg"/>
 		<blurb>
 		Mr. Wong directs our symphonic band and way play many pieces.
 		
 		</blurb>
 		
 	<member relation="teacher">
-		<name> Mr. Takacs  </name>
-		<image pic= "calculus.jpg "  />
+		<name>Mr. Takacs</name>
+		<image pic="calculus.jpg"/>
 		<blurb>
 		Mr. Takacs teaches us many different calculus concepts.
 		
