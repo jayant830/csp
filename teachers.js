@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(xml);
             buildNameList(xml);
             //buildImageList(xml);
-            //buildBlurbList(xml);
+            buildBlurbList(xml);
         });
 })
 
