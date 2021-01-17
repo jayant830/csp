@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('output').textContent = data;
             console.log(xml);
             buildNameList(xml);
-            buildImageList(xml);
-            buildBlurbList(xml);
+            //buildImageList(xml);
+            //buildBlurbList(xml);
         });
 })
 
