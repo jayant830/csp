@@ -19,12 +19,11 @@ function buildNameList(x) {
     let list = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let span = document.createElement('span');
+        let li = document.createElement('li');
         let name = member[i].firstChild.nodeValue;
         let blurb = member[i].lastChild.nodeValue;
-        span.textContent = name;
-        span.textContent = blurb;
-        list.appendChild(span);
+        li.textContent = name;
+        list.appendChild(li);
     }
 }
 
