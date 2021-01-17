@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(data); //string
             let parser = new DOMParser();
             let xml = parser.parseFromString(data, "application/xml");
-            document.getElementById('output').textContent = data;
-            console.log(xml);
+            //document.getElementById('output').textContent = data;
+            //console.log(xml);
             buildNameList(xml);
             //buildImageList(xml);
             buildBlurbList(xml);
