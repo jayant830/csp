@@ -4,13 +4,13 @@
 <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="base.css">
-    <link rel="script" href="teachers.js">
+    <script defer rel="script" src="teachers.js"></script>
 </head>
 
 <body style="background-color: darkorange;"></body>
 <div class="heading">
     <header>
-        <h1>My Webpage</h1>
+	    <h1><a href="index.html">Jayant's website</a></h1>
     </header>
 </div>
 <div class="left-bar">
@@ -38,3 +38,20 @@
         <pre id="output"></pre>
     </main>
 </div>
+	<!--script>
+		document.addEventListener('DOMContentLoaded', () => {
+    //fetch the data as soon as the page has loaded
+    let url = "teachers.xml";
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);  //string
+            let parser = new DOMParser();
+            let xml = parser.parseFromString(data, "application/xml");
+            document.getElementById('output').textContent = data;
+            console.log(xml);
+	});
+		})
+	</script-->
+</body>
+</html>

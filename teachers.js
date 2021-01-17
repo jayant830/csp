@@ -4,17 +4,17 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch(url)
         .then(response => response.text())
         .then(data => {
-            //console.log(data);  //string
+            console.log(data);  //string
             let parser = new DOMParser();
             let xml = parser.parseFromString(data, "application/xml");
             document.getElementById('output').textContent = data;
-            //console.log(xml);
+            console.log(xml);
             buildNameList(xml);
             buildImageList(xml);
             buildBlurbList(xml);
         });
 })
-
+ 
 function buildNameList(x) {
     let list = document.getElementById('member');
     let member = x.getElementsByTagName('name');
@@ -26,14 +26,14 @@ function buildNameList(x) {
     }
 }
 
-function buildSwordList(x) {
-    let list = document.getElementById('swords');
-    let swords = x.getElementsByTagName('sword');
-    for (let i = 0; i < swords.length; i++) {
+function buildBlurbList(x) {
+    let list = document.getElementById('member');
+    let member = x.getElementsByTagName('image');
+    for (let i = 0; i < member.length; i++) {
         let li = document.createElement('li');
-        let swordName = swords[i].firstChild.nodeValue;
-        let person = swords[i].getAttribute('owner');
-        li.textContent = `${swordName} - ${person}`;
+        let image = member[i].secondChild.nodeValue;
+        //let person = swords[i].getAttribute('owner');
+        li.textContent = `${image}`;
         list.appendChild(li);
     }
-}
+} */
