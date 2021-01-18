@@ -28,11 +28,11 @@ function buildNameList(x) {
 }
 
 function buildBlurbList(x) {
-    let list = document.getElementById('member');
-    let member = x.getElementsByTagName('blurb');
-    for (let i = 0; i < member.length; i++) {
+    let list = document.getElementById('text');
+    let text = x.getElementsByTagName('blurb');
+    for (let i = 0; i < text.length; i++) {
         let li = document.createElement('li');
-        let blurb = member[i].lastChild.nodeValue;
+        let blurb = text[i].lastChild.nodeValue;
         //let person = swords[i].getAttribute('owner');
         li.textContent = blurb;
         list.appendChild(li);
