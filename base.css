@@ -9,7 +9,6 @@ html {
 }
 
 .left-bar {
-    background-color: papayawhip;
     position: relative;
     float: left;
     width: 12%;
@@ -23,7 +22,6 @@ li {
     width: 75%;
     position: relative;
     padding: 2px;
-    background-color: whitesmoke;
     overflow: auto;
 }
 
