@@ -32,6 +32,6 @@ li {
     float: left;
 }
 
-.colored {
-    background-color: orangered;
+table th td {
+    border: black 1px;
 }
