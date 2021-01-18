@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
             //console.log(xml);
             buildNameList(xml);
             buildBlurbList(xml);
-            buildImageList(xml);
         });
 })
 
@@ -34,16 +33,6 @@ function buildBlurbList(x) {
         let li = document.createElement('li');
         let blurb = text[i].lastChild.nodeValue;
         li.textContent = blurb;
-        list.appendChild(li);
-    }
-}
-function buildImageList(x) {
-    let list = document.getElementById('pic');
-    let pic = x.getElementsByTagName('image');
-    for (let i = 0; i < pic.length; i++) {
-        let li = document.createElement('li');
-        let image = pic[i].lastChild.nodeValue;
-        li.textContent = image;
         list.appendChild(li);
     }
 }
