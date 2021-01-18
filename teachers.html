@@ -5,7 +5,6 @@
     <title>My subjects</title>
     <link rel="stylesheet" href="base.css">
     <script defer rel="script" src="teachers.js"></script>
-    <script defer rel="script" src="teachersimage.js"></script>
 
 </head>
 
@@ -47,7 +46,6 @@
             <tr>
                 <th>Teacher Name</th>
                 <th>Description</th>
-                <th>Image</th>
             </tr>
             <tr>
                 <td>
@@ -56,30 +54,10 @@
                 <td>
                     <div id="text"></div>
                 </td>
-                <td>
-                    <div id="pics"></div>
-                </td>
             </tr>
         </table>
-        <!-- div id="image"></div>
-        <pre id="output "></pre -->
     </main>
 </div>
-<!--script>
-		document.addEventListener('DOMContentLoaded', () => {
-    //fetch the data as soon as the page has loaded
-    let url = "teachers.xml ";
-    fetch(url)
-        .then(response => response.text())
-        .then(data => {
-            console.log(data);  //string
-            let parser = new DOMParser();
-            let xml = parser.parseFromString(data, "application/xml ");
-            document.getElementById('output').textContent = data;
-            console.log(xml);
-	});
-		})
-	</script-->
 </body>
 
 </html>
