@@ -2,7 +2,6 @@
 <jayant>
 	<member relation="teacher">
 		<name>Ms. Lucas</name>
-		<image pic="gatsby.jpg"  />
 		<blurb>
 		We read many books in English 11 taught by Ms. Lucas
 		</blurb>
@@ -10,7 +9,6 @@
 		
 	<member relation="teacher">
 		<name>Mr. Benn</name>
-		<image pic="physics.jpg"/>
 		<blurb>
 		We learn many physics concepts in AP Physics 1 taught by Mr. Benn.
 		</blurb>
@@ -19,7 +17,6 @@
 		
 	<member relation="teacher">
 		<name> Mrs. Angilieri  </name>
-		<image pic="APush.jpg"  />
 		<blurb>
 		We learn a lot about the history of the US and the impacts of the actions of people in APUSH.	
 		</blurb>
@@ -27,14 +24,12 @@
 		
 	<member relation="teacher">
 		<name>Mr. Millard</name>
-		<image pic="csp.jpg"/>
 		<blurb>
-		Mr. Millard teaches us about things like HTML and newtorking.
+		Mr. Millard teaches us about things like HTML and networking.
 		</blurb>
 	</member>
 	<member relation="teacher">
 		<name>Mr. Wong</name>
-		<image pic="band.jpg"/>
 		<blurb>
 		Mr. Wong directs our symphonic band and way play many pieces.
 		
@@ -42,7 +37,6 @@
 	</member>	
 	<member relation="teacher">
 		<name>Mr. Takacs</name>
-		<image pic="calculus.jpg"/>
 		<blurb>
 		Mr. Takacs teaches us many different calculus concepts.
 		</blurb>

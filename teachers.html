@@ -5,10 +5,11 @@
     <title>My subjects</title>
     <link rel="stylesheet" href="base.css">
     <script defer rel="script" src="teachers.js"></script>
+
 </head>
 
-<body></body>
-<div class="heading ">
+<body style="background-color:lightblue;">
+    <div class="heading ">
     <header>
         <h1><a href="index.html ">Jayant's website</a></h1>
     </header>
@@ -16,13 +17,10 @@
 <div class="left-bar ">
     <ul>
         <li>
-            <a href="index.html ">My home</a>
-        </li>
-        <li>
             <a href="page2.html ">My hobbies</a>
         </li>
         <li>
-            <a href="teachers.html ">My teachers</a>
+            My teachers
         </li>
         <li>
             <a href="aboutme.html">About me</a>
@@ -51,32 +49,22 @@
             </tr>
             <tr>
                 <td>
+<<<<<<< HEAD
                     <ul id="member"></ul>
                 </td>
                 <td>
                     <ul id="blurb"></ul>
+=======
+                    <div id="member" class="left"></div>
+                </td>
+                <td>
+                    <div id="text"></div>
+>>>>>>> upstream/master
                 </td>
             </tr>
         </table>
-        <!-- div id="image"></div>
-        <pre id="output "></pre -->
     </main>
 </div>
-<!--script>
-		document.addEventListener('DOMContentLoaded', () => {
-    //fetch the data as soon as the page has loaded
-    let url = "teachers.xml ";
-    fetch(url)
-        .then(response => response.text())
-        .then(data => {
-            console.log(data);  //string
-            let parser = new DOMParser();
-            let xml = parser.parseFromString(data, "application/xml ");
-            document.getElementById('output').textContent = data;
-            console.log(xml);
-	});
-		})
-	</script-->
 </body>
 
 </html>
