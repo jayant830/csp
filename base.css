@@ -51,6 +51,7 @@ td,
 .ovrflo {
     overflow: hidden;
     position: relative;
+    clear: right;
 }
 
 a {
