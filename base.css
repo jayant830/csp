@@ -23,6 +23,7 @@ li {
     position: relative;
     padding: 2px;
     overflow: auto;
+    clear: both;
 }
 
 .left {
@@ -40,6 +41,11 @@ td,
 .ovrflo {
     overflow: auto;
     position: relative;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
