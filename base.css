@@ -32,6 +32,11 @@ li {
 
 table,
 th,
-td {
+td,
+.libox {
     border: 1px solid black;
+}
+
+.ovrflo {
+    overflow: auto;
 }
