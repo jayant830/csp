@@ -20,7 +20,7 @@ function buildNameList(x) {
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
         let li = document.createElement('li');
-        li.classList.add("libox")
+        li.classList.add("libox box-small")
         let name = member[i].firstChild.nodeValue;
         li.textContent = name;
         list.appendChild(li);
