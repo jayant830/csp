@@ -22,7 +22,7 @@ li {
     width: 75%;
     position: relative;
     padding: 2px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .clearfix::before,
@@ -49,9 +49,9 @@ td,
 }
 
 .ovrflo {
-    overflow: hidden;
+    overflow: auto;
     position: relative;
-    clear: right;
+    clear: left;
 }
 
 a {
