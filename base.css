@@ -22,8 +22,7 @@ li {
     width: 75%;
     position: relative;
     padding: 2px;
-    overflow: auto;
-    clear: left;
+    overflow: hidden;
 }
 
 .left {
@@ -39,9 +38,8 @@ td,
 }
 
 .ovrflo {
-    overflow: auto;
+    overflow: hidden;
     position: relative;
-    clear: left;
 }
 
 a {
