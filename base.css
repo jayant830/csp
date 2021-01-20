@@ -23,7 +23,7 @@ li {
     position: relative;
     padding: 2px;
     overflow: auto;
-    clear: both;
+    clear: left;
 }
 
 .left {
@@ -41,7 +41,7 @@ td,
 .ovrflo {
     overflow: auto;
     position: relative;
-    clear: both;
+    clear: left;
 }
 
 a {
