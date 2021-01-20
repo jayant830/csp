@@ -4,37 +4,36 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch(url)
         .then(response => response.text())
         .then(data => {
-            console.log(data); //string
+            //console.log(data); //string
             let parser = new DOMParser();
             let xml = parser.parseFromString(data, "application/xml");
             //document.getElementById('output').textContent = data;
             //console.log(xml);
-            buildNameList(xml);
+            buildNameTable(xml);
             //buildImageList(xml);
-            buildBlurbList(xml);
+            buildBlurbTable(xml);
         });
 })
 
-function buildNameList(x) {
-    let list = document.getElementById('member');
+function buildNameTable(x) {
+    let table = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let li = document.createElement('li');
+        let tr = document.createElement('tr');
         let name = member[i].firstChild.nodeValue;
         let blurb = member[i].lastChild.nodeValue;
-        li.textContent = name;
-        list.appendChild(li);
+        tr.textContent = name;
+        table.appendChild(tr);
     }
 }
 
 function buildBlurbList(x) {
-    let list = document.getElementById('member');
-    let member = x.getElementsByTagName('blurb');
-    for (let i = 0; i < member.length; i++) {
-        let li = document.createElement('li');
-        let blurb = member[i].lastChild.nodeValue;
-        //let person = swords[i].getAttribute('owner');
-        li.textContent = blurb;
-        list.appendChild(li);
+    let table = document.getElementById('text');
+    let text = x.getElementsByTagName('blurb');
+    for (let i = 0; i < text.length; i++) {
+        let tr = document.createElement('tr');
+        let blurb = text[i].lastChild.nodeValue;
+        tr.textContent = blurb;
+        table.appendChild(tr);
     }
 }
