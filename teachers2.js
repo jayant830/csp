@@ -32,7 +32,7 @@ function buildBlurbList(x) {
     let text = x.getElementsByTagName('blurb');
     for (let i = 0; i < text.length; i++) {
         let li = document.createElement('li');
-        li.classList.add("libox")
+        li.classList.add("libox box-large")
         let blurb = text[i].firstChild.nodeValue;
         li.textContent = blurb;
         list.appendChild(li);
