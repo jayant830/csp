@@ -60,3 +60,7 @@ a:hover {
 .clearing {
     clear: both;
 }
+
+.nobo {
+    border: none;
+}
