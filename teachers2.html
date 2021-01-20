@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My subjects</title>
+    <link rel="stylesheet" href="base.css">
+    <script defer rel="script" src="teachers2.js"></script>
+</head>
+
+<body></body>
+<div class="heading ">
+    <header>
+        <h1><a href="index.html ">Jayant's website</a></h1>
+    </header>
+</div>
+<div class="left-bar ">
+    <ul>
+        <li>
+            <a href="page2.html ">My hobbies</a>
+        </li>
+        <li>
+            My teachers
+        </li>
+        <li>
+            <a href="aboutme.html">About me</a>
+        </li>
+    </ul>
+</div>
+<div class="main-section ">
+    <h2>My subjects</h2>
+    <p> I take the following subjects at school in 11th grade:</p>
+    <ol>
+        <li>English</li>
+        <li>AP Physics 1</li>
+        <li>AP US History</li>
+        <li>AP Computer Science Principles</li>
+        <li>Symphonic Band</li>
+        <li>AP Calculus BC</li>
+    </ol>
+
+    </header>
+    <main>
+        <h2>My teachers</h2>
+        <table>
+            <tr>
+                <th>Teacher Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>
+                    <span id="member"></span>
+                </td>
+                <td>
+                    <span id="blurb"></span>
+                </td>
+            </tr>
+        </table>
+    </main>
+</div>
+<!--script>
+		document.addEventListener('DOMContentLoaded', () => {
+    //fetch the data as soon as the page has loaded
+    let url = "teachers.xml ";
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);  //string
+            let parser = new DOMParser();
+            let xml = parser.parseFromString(data, "application/xml ");
+            document.getElementById('output').textContent = data;
+            console.log(xml);
+	});
+		})
+	</script-->
+</body>
+
+</html>
