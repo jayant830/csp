@@ -39,6 +39,7 @@ td,
 
 .ovrflo {
     overflow: auto;
+    position: relative;
 }
 
 a:hover {
