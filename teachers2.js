@@ -19,9 +19,11 @@ function buildNameTable(x) {
     let table = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
+        let tr = document.createElement('tr');
         let td = document.createElement('td');
         let name = member[i].firstChild.nodeValue;
         td.textContent = name;
+        table.textContent(tr);
         table.appendChild(td);
     }
 }
