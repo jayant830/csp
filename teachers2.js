@@ -27,7 +27,7 @@ function buildNameTable(x) {
     }
 }
 
-function buildBlurbList(x) {
+function buildBlurbTable(x) {
     let table = document.getElementById('text');
     let text = x.getElementsByTagName('blurb');
     for (let i = 0; i < text.length; i++) {
