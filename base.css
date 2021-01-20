@@ -64,3 +64,19 @@ a:hover {
 .nobo {
     border: none;
 }
+
+.box-small {
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 3px;
+}
+
+.box-large {
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    padding: 3px;
+}
