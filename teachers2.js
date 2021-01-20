@@ -9,32 +9,30 @@ document.addEventListener('DOMContentLoaded', () => {
             let xml = parser.parseFromString(data, "application/xml");
             //document.getElementById('output').textContent = data;
             //console.log(xml);
-            buildNameTable(xml);
+            buildNameList(xml);
             //buildImageList(xml);
-            buildBlurbTable(xml);
+            buildBlurbList(xml);
         });
 })
 
-function buildNameTable(x) {
-    let table = document.getElementById('member');
+function buildNameList(x) {
+    let list = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let tr = document.createElement('tr');
-        let td = document.createElement('td');
+        let li = document.createElement('li');
         let name = member[i].firstChild.nodeValue;
-        td.textContent = name;
-        table.appendChild(tr);
-        table.appendChild(td);
+        li.textContent = name;
+        list.appendChild(li);
     }
 }
 
-function buildBlurbTable(x) {
-    let table = document.getElementById('text');
+function buildBlurbList(x) {
+    let list = document.getElementById('text');
     let text = x.getElementsByTagName('blurb');
     for (let i = 0; i < text.length; i++) {
-        let td = document.createElement('td');
+        let li = document.createElement('li');
         let blurb = text[i].firstChild.nodeValue;
-        td.textContent = blurb;
-        table.appendChild(td);
+        li.textContent = blurb;
+        list.appendChild(li);
     }
 }
