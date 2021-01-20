@@ -32,6 +32,10 @@ li {
     clear: both;
 }
 
+.clearfix {
+    background-color: red;
+}
+
 .left {
     position: relative;
     float: left;
