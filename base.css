@@ -32,10 +32,6 @@ li {
     clear: both;
 }
 
-.clearfix {
-    background-color: red;
-}
-
 .left {
     position: relative;
     float: left;
@@ -51,7 +47,6 @@ td,
 .ovrflo {
     overflow: auto;
     position: relative;
-    clear: left;
 }
 
 a {
