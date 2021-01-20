@@ -23,7 +23,7 @@ function buildNameTable(x) {
         let td = document.createElement('td');
         let name = member[i].firstChild.nodeValue;
         td.textContent = name;
-        table.textContent(tr);
+        table.appendChild(tr);
         table.appendChild(td);
     }
 }
