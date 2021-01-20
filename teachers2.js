@@ -19,11 +19,10 @@ function buildNameTable(x) {
     let table = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let tr = document.createElement('tr');
+        let td = document.createElement('td');
         let name = member[i].firstChild.nodeValue;
-        let blurb = member[i].lastChild.nodeValue;
-        tr.textContent = name;
-        table.appendChild(tr);
+        td.textContent = name;
+        table.appendChild(td);
     }
 }
 
@@ -31,9 +30,9 @@ function buildBlurbTable(x) {
     let table = document.getElementById('text');
     let text = x.getElementsByTagName('blurb');
     for (let i = 0; i < text.length; i++) {
-        let tr = document.createElement('tr');
-        let blurb = text[i].lastChild.nodeValue;
-        tr.textContent = blurb;
-        table.appendChild(tr);
+        let td = document.createElement('td');
+        let blurb = text[i].firstChild.nodeValue;
+        td.textContent = blurb;
+        table.appendChild(td);
     }
 }
