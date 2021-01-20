@@ -19,7 +19,7 @@ function buildNameList(x) {
     let list = document.getElementById('member');
     let member = x.getElementsByTagName('name');
     for (let i = 0; i < member.length; i++) {
-        let li = document.createElement('li');
+        let li = document.createElement('li class="libox left"');
         let name = member[i].firstChild.nodeValue;
         li.textContent = name;
         list.appendChild(li);
@@ -30,7 +30,7 @@ function buildBlurbList(x) {
     let list = document.getElementById('text');
     let text = x.getElementsByTagName('blurb');
     for (let i = 0; i < text.length; i++) {
-        let li = document.createElement('li');
+        let li = document.createElement('li class="libox"');
         let blurb = text[i].firstChild.nodeValue;
         li.textContent = blurb;
         list.appendChild(li);
