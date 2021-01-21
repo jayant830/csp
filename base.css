@@ -16,10 +16,13 @@ html {
 
 li {
     list-style: none;
+}
+
+neg-margin {
     margin-left: -40px;
 }
 
-ul {
+.nomargin {
     margin-top: 0;
     margin-bottom: 0;
 }
