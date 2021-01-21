@@ -70,10 +70,14 @@ a:hover {
     border: 2px solid black;
     width: 150px;
     padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .box-large {
     border: 2px solid black;
     width: 800px;
     padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
