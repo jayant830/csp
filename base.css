@@ -29,6 +29,7 @@ ul {
     position: relative;
     padding: 2px;
     overflow: auto;
+    border-left: 1px dotted black;
 }
 
 .clearfix::before,
