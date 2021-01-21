@@ -69,13 +69,11 @@ a:hover {
 .box-small {
     border: 2px solid black;
     width: 150px;
-    margin: 0;
     padding: 3px;
 }
 
 .box-large {
     border: 2px solid black;
     width: 800px;
-    margin: 0;
     padding: 3px;
 }
