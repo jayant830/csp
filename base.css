@@ -19,6 +19,11 @@ li {
     margin-left: -40px;
 }
 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .main-section {
     width: 75%;
     position: relative;
@@ -70,14 +75,10 @@ a:hover {
     border: 2px solid black;
     width: 150px;
     padding: 3px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .box-large {
     border: 2px solid black;
     width: 800px;
     padding: 3px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
