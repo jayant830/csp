@@ -1,0 +1,96 @@
+html {
+    font-family: "Open sans", sans-serif;
+}
+
+header {
+    background-color: orange;
+    width: 100%;
+    padding: 5px;
+}
+
+nav {
+    padding: 5px, 15px, 5px, 15px;
+    border-radius: 7px, 7px, 0, 0;
+    background-color: darkblue;
+    float: left;
+    color: white;
+}
+
+main {
+    width: 75%;
+    position: relative;
+    padding: 2px;
+    overflow: auto;
+    border: 1px dotted black;
+}
+
+.left-bar {
+    position: relative;
+    float: left;
+    width: 12%;
+}
+
+li {
+    list-style: none;
+}
+
+.neg-margin {
+    margin-left: -40px;
+}
+
+.nomargin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left {
+    position: relative;
+    float: left;
+}
+
+table,
+th,
+td,
+.libox {
+    border: 2px solid black;
+}
+
+.ovrflo {
+    overflow: auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearing {
+    clear: both;
+}
+
+.nobo {
+    border: none;
+}
+
+.box-small {
+    border: 2px solid black;
+    width: 150px;
+    padding: 3px;
+}
+
+.box-large {
+    border: 2px solid black;
+    width: 800px;
+    padding: 3px;
+}
