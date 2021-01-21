@@ -8,15 +8,22 @@ header {
     padding: 5px;
 }
 
-nav {
-    padding: 5px, 15px, 5px, 15px;
-    border-radius: 7px, 7px, 0, 0;
-    background-color: darkblue;
+
+/* nav {
     float: left;
+    color: white;
+} */
+
+.btn {
+    float: left;
+    padding: 5px 15px 5px 15px;
+    border-radius: 7px 7px 0 0;
+    background: darkblue;
     color: white;
 }
 
 main {
+    margin: auto;
     width: 75%;
     position: relative;
     padding: 2px;
@@ -69,6 +76,7 @@ td,
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
