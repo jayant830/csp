@@ -40,3 +40,16 @@ function buildBlurbList(x) {
         list.appendChild(li);
     }
 }
+
+function buildBlurbList(x) {
+    let list = document.getElementById('pix');
+    let pix = x.getElementsByTagName('image');
+    for (let i = 0; i < pix.length; i++) {
+        let img = document.createElement('img');
+        //li.classList.add("box-large")
+        img.classList.add("libox", "box-small")
+        let image = pix[i].firstChild.nodeValue;
+        img.src = image;
+        list.appendChild(img);
+    }
+}
