@@ -38,37 +38,22 @@
             <li>AP Calculus BC</li>
         </ol>
         <div class="clearing"></div>
-        <div>
+        <section>
             <h2>My teachers</h2>
-            <div class="clearfix">
+            <section class="clearfix">
                 <ul class="box-small left nomargin">
                     <h3 class="nobo">Teacher Name</h3>
                 </ul>
                 <ul class="box-large left nomargin">
                     <h3 class="nobo">Description</h3>
                 </ul>
-            </div>
-            <div class="clearfix">
-                <ul id="member" class="left nomargin"></ul>
-                <ul id="text" class="left nomargin"></ul>
-            </div>
-        </div>
+                </div>
+                <div class="clearfix">
+                    <ul id="member" class="left nomargin"></ul>
+                    <ul id="text" class="left nomargin"></ul>
+            </section>
+        </section>
     </main>
-    <!--script>
-		document.addEventListener('DOMContentLoaded', () => {
-    //fetch the data as soon as the page has loaded
-    let url = "teachers.xml ";
-    fetch(url)
-        .then(response => response.text())
-        .then(data => {
-            console.log(data);  //string
-            let parser = new DOMParser();
-            let xml = parser.parseFromString(data, "application/xml ");
-            document.getElementById('output').textContent = data;
-            console.log(xml);
-	});
-		})
-	</script-->
 </body>
 
 </html>
