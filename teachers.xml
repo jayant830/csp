@@ -6,7 +6,7 @@
 		We read many books in English 11 taught by Ms. Lucas
 		</blurb>
 		<image>
-		gastby.jfif
+		img/gastby.jfif
 		</image>
 	</member>
 		
@@ -15,6 +15,9 @@
 		<blurb>
 		We learn many physics concepts in AP Physics 1 taught by Mr. Benn.
 		</blurb>
+		<image>
+		img/physics.jfif
+		</image>
 	</member>
 		
 		
@@ -23,6 +26,9 @@
 		<blurb>
 		We learn a lot about the history of the US and the impacts of the actions of people in APUSH.	
 		</blurb>
+		<image>
+		img/apush.jpg
+		</image>
 	</member>
 		
 	<member relation="teacher">
@@ -30,18 +36,26 @@
 		<blurb>
 		Mr. Millard teaches us about things like HTML and networking.
 		</blurb>
+		<image>
+		img/apcsp.png
+		</image>
 	</member>
 	<member relation="teacher">
 		<name>Mr. Wong</name>
 		<blurb>
 		Mr. Wong directs our symphonic band and way play many pieces.
-		
 		</blurb>
+		<image>
+		img/band.jfif
+		</image>
 	</member>	
 	<member relation="teacher">
 		<name>Mr. Takacs</name>
 		<blurb>
 		Mr. Takacs teaches us many different calculus concepts.
 		</blurb>
+		<image>
+		img/calculus.jfif
+		</image>
 	</member>
 </jayant>
