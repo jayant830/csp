@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             buildNameList(xml);
             buildBlurbList(xml);
             // This function is not really working as I want it to. ofcourse it is pulling in the image, but is not showing up correctly on the HTML page.
-            //  buildImageList(xml);
+            buildImageList(xml);
         });
 })
 
@@ -46,12 +46,13 @@ function buildImageList(x) {
     let list = document.getElementById('pix');
     let pix = x.getElementsByTagName('image');
     for (let i = 0; i < pix.length; i++) {
-        //let li = document.createElement('li');
+        let li = document.createElement('li');
         let img = document.createElement('img');
-        //li.classList.add("libox", "box-medium")
-        img.classList.add("libox", "box-medium")
+        li.classList.add("libox", "box-medium")
+            //img.classList.add("libox", "box-medium")
         let image = pix[i].firstChild.nodeValue;
         img.src = image;
-        list.appendChild(img);
+        li.appendChild(img);
+        list.appendChild(li);
     }
 }
