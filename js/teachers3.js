@@ -48,8 +48,8 @@ function buildImageList(x) {
     for (let i = 0; i < pix.length; i++) {
         let li = document.createElement('li');
         let img = document.createElement('img');
-        li.classList.add("libox", "box-medium")
-        img.classList.add("box-medium")
+        li.classList.add("libox", "box-small")
+        img.classList.add("box-medium", "thumbs")
         let image = pix[i].firstChild.nodeValue;
         img.src = image;
         li.appendChild(img);

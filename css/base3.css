@@ -104,21 +104,22 @@ a:hover {
 .box-small {
     border: 2px solid black;
     width: 150px;
-    height: 300px;
+    height: 75px;
     padding: 3px;
 }
 
-.box-medium {
+
+/*.box-medium {
     border: 2px solid black;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 75px;
     padding: 3px;
-}
+} */
 
 .box-large {
     border: 2px solid black;
     width: 800px;
-    height: 300px;
+    height: 75px;
     padding: 3px;
 }
 
@@ -127,4 +128,9 @@ a:hover {
     text-align: center;
     color: yellow;
     background: darkblue;
+}
+
+.thumbs {
+    height: 75px;
+    width: 60px;
 }
