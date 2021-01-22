@@ -45,10 +45,10 @@ function buildImageList(x) {
     let list = document.getElementById('pix');
     let pix = x.getElementsByTagName('image');
     for (let i = 0; i < pix.length; i++) {
-        let li = document.createElement('li');
+        //let li = document.createElement('li');
         let img = document.createElement('img');
-        li.classList.add("libox", "box-medium")
-            //img.classList.add("libox", "box-medium")
+        //li.classList.add("libox", "box-medium")
+        img.classList.add("libox", "box-medium")
         let image = pix[i].firstChild.nodeValue;
         img.src = image;
         list.appendChild(img);
