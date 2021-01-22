@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             //console.log(xml);
             buildNameList(xml);
             buildBlurbList(xml);
-            buildImageList(xml);
+            // This function is not really working as I want it to. ofcourse it is pulling in the image, but is not showing up correctly on the HTML page.
+            //  buildImageList(xml);
         });
 })
 
