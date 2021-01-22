@@ -124,5 +124,7 @@ a:hover {
 
 .headrow {
     height: auto;
-    margin: auto;
+    text-align: center;
+    color: yellow;
+    background: darkblue;
 }
