@@ -29,7 +29,7 @@ header {
 
 main {
     margin: auto;
-    width: 80%;
+    width: auto;
     position: relative;
     padding: 2px;
     overflow: auto;
