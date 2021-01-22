@@ -49,7 +49,7 @@ function buildImageList(x) {
         let li = document.createElement('li');
         let img = document.createElement('img');
         li.classList.add("libox", "box-medium")
-        img.classList.add("libox", "box-medium")
+        img.classList.add("box-medium")
         let image = pix[i].firstChild.nodeValue;
         img.src = image;
         li.appendChild(img);
