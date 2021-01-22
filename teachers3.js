@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
             //document.getElementById('output').textContent = data;
             //console.log(xml);
             buildNameList(xml);
-            //buildImageList(xml);
             buildBlurbList(xml);
+            buildImageList(xml);
         });
 })
 
@@ -41,7 +41,7 @@ function buildBlurbList(x) {
     }
 }
 
-function buildBlurbList(x) {
+function buildImageList(x) {
     let list = document.getElementById('pix');
     let pix = x.getElementsByTagName('image');
     for (let i = 0; i < pix.length; i++) {
