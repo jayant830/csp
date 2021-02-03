@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8" />
     <title>My subjects</title>
-    <link rel="stylesheet" href="base.css">
-    <script defer rel="script" src="teachers.js"></script>
-
+    <link rel="stylesheet" href="css/base3.css">
+    <script defer rel="script" src="js/teachers3.js"></script>
 </head>
 
-<body style="background-color:lightblue;">
-    <div class="heading ">
-        <header>
-            <h1><a href="index.html ">Jayant's website</a></h1>
-        </header>
-    </div>
-    <div class="left-bar ">
-        <ul>
-            <li>
+<body>
+    <header>
+        <h1><a href="index.html ">Jayant's website</a></h1>
+    </header>
+    <nav>
+        <ul class="clearfix">
+            <li class="btn">
                 <a href="page2.html ">My hobbies</a>
             </li>
-            <li>
+            <li class="active btn">
                 My teachers
             </li>
-            <li>
+            <li class="btn">
                 <a href="aboutme.html">About me</a>
             </li>
         </ul>
-    </div>
-    <div class="main-section ">
+    </nav>
+    <div class="clearfix"></div>
+    <main>
         <h2>My subjects</h2>
         <p> I take the following subjects at school in 11th grade:</p>
         <ol>
@@ -38,26 +37,27 @@
             <li>Symphonic Band</li>
             <li>AP Calculus BC</li>
         </ol>
-
-        </header>
-        <main>
+        <div class="clearing"></div>
+        <section>
             <h2>My teachers</h2>
-            <table>
-                <tr>
-                    <th>Teacher Name</th>
-                    <th>Description</th>
-                </tr>
-                <tr>
-                    <td>
-                        <ul id="member" class="left"></ul>
-                    </td>
-                    <td>
-                        <ul id="text"></ul>
-                    </td>
-                </tr>
-            </table>
-        </main>
-    </div>
+            <section class="clearfix">
+                <ul class="box-small left nomargin headrow">
+                    <h3 class="nobo">Teacher Name</h3>
+                </ul>
+                <ul class="box-large left nomargin headrow">
+                    <h3 class="nobo">Description</h3>
+                </ul>
+                <ul class="box-small left nomargin headrow">
+                    <h3 class="nobo">Image</h3>
+                </ul>
+            </section>
+            <section class="clearfix">
+                <ul id="member" class="left nomargin"></ul>
+                <ul id="text" class="left nomargin"></ul>
+                <ul id="pix" class="left nomargin"></ul>
+            </section>
+        </section>
+    </main>
 </body>
 
 </html>
